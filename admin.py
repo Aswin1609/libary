@@ -3,11 +3,6 @@ from book import book
 
 class admin(member,book):
     admin_details={"admin@gmail.com":["Aswin","1234"]}
-    def __init__(self,email,password):
-        self.email=email
-        self.password=password
-        self.login(self.email,self.password)
-
 #MANAGE MEMBER DETAILS
     def add_member(self):
         print("1. Add new member")
